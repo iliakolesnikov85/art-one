@@ -60,7 +60,14 @@ export function WishesGallery({ attachedId, onUse }: WishesGalleryProps) {
                   key={tile.id}
                   className={selected ? `tile tile-h-${tile.height} is-selected` : `tile tile-h-${tile.height}`}
                 >
-                  <img src={tile.imageUrl} alt="" />
+                  <button
+                    className="tile-preview"
+                    type="button"
+                    aria-label={`Attach ${tile.label}`}
+                    onClick={() => onUse(attachmentFrom(tile))}
+                  >
+                    <img src={tile.imageUrl} alt="" />
+                  </button>
                   <button
                     className={saved ? 'save-button is-saved' : 'save-button'}
                     type="button"

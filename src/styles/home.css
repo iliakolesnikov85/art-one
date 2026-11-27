@@ -584,6 +584,16 @@
   aspect-ratio: 229 / 406;
 }
 
+.tile-preview {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border-radius: inherit;
+}
+
 .tile img {
   width: 100%;
   height: 100%;

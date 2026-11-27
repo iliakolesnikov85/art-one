@@ -36,15 +36,12 @@ export function withoutAttachment(draft: PromptDraft): PromptDraft {
 }
 
 export function applyIdea(draft: PromptDraft, idea: IdeaSelection): PromptDraft {
-  return {
-    text: idea.prompt,
-    attachment: {
-      id: idea.id,
-      name: idea.imageName,
-      url: idea.imageUrl,
-      source: 'idea',
-    },
-  }
+  return withAttachment(withText(draft, idea.prompt), {
+    id: idea.id,
+    name: idea.imageName,
+    url: idea.imageUrl,
+    source: 'idea',
+  })
 }
 
 export function hasPromptContent(draft: PromptDraft): boolean {

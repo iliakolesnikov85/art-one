@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import {
   applyIdea,
   createEmptyDraft,
@@ -17,7 +17,10 @@ function releaseUpload(attachment: ImageAttachment | null) {
 export function usePromptDraft() {
   const [draft, setDraft] = useState<PromptDraft>(createEmptyDraft)
   const draftRef = useRef(draft)
-  draftRef.current = draft
+
+  useEffect(() => {
+    draftRef.current = draft
+  }, [draft])
 
   const commit = (next: PromptDraft, previous: PromptDraft) => {
     if (previous.attachment && previous.attachment.url !== next.attachment?.url) {
