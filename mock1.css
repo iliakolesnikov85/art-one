@@ -1,0 +1,8323 @@
+/* Home/Chat */
+
+position: relative;
+width: 1280px;
+height: 1816px;
+left: 100px;
+top: 275px;
+
+/* Solid/Universal Grey/Background Dark
+
+Solid Background Dark · Artven color palette.
+*/
+background: #050505;
+border-radius: 8px;
+
+
+/* Sidebar */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px 8px;
+gap: 16px;
+
+position: absolute;
+width: 64px;
+height: 1000px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Background
+
+Solid Background · Artven color palette.
+*/
+background: #171717;
+
+
+/* search-launch nav-item */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 48px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* i */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+width: 32px;
+height: 32px;
+
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Search
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 6.28px;
+top: 6.28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 13px;
+height: 13px;
+left: calc(50% - 13px/2);
+top: calc(50% - 13px/2);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+visibility: hidden;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* sidebar-divider sidebar-section-divider */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 48px;
+height: 1px;
+
+/* Solid/Universal Grey/Container Primary
+
+Solid Container Primary · Artven color palette.
+*/
+background: #262626;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* primary-nav */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 48px;
+height: 176px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* nav-item active */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 48px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* i */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+/* Solid/Universal Grey/Container Secondary
+
+Solid Container Secondary · Artven color palette.
+*/
+background: #373737;
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Presets
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 14px;
+height: 14px;
+left: calc(50% - 14px/2 + 0px);
+top: calc(50% - 14px/2);
+
+
+
+/* Vector */
+
+position: absolute;
+left: 15%;
+right: 57%;
+top: 15%;
+bottom: 57%;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 15%;
+right: 57%;
+top: 57%;
+bottom: 15%;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 57%;
+right: 15%;
+top: 57%;
+bottom: 15%;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 57%;
+right: 15%;
+top: 15%;
+bottom: 57%;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Presets */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 26px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Presets */
+
+width: 26px;
+height: 12px;
+
+/* Typography/Label/Sidebar */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 9px;
+line-height: 12px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* nav-item */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 48px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* i */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Chat
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 15.01px;
+height: 14px;
+left: calc(50% - 15.01px/2 - 0px);
+top: calc(50% - 14px/2);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+visibility: hidden;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Chat */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 21px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Chat */
+
+width: 21px;
+height: 12px;
+
+/* Typography/Label/Sidebar */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 9px;
+line-height: 12px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Solid/Universal Grey/Tertiary */
+color: #828282;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* nav-item has-unread */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 48px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* i */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Results
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 13px;
+height: 13px;
+left: calc(50% - 13px/2);
+top: calc(50% - 13px/2);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+visibility: hidden;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Results */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 40px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Results */
+
+width: 32px;
+height: 12px;
+
+/* Typography/Label/Sidebar */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 9px;
+line-height: 12px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Solid/Universal Grey/Tertiary */
+color: #828282;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Unread · Results */
+
+width: 4px;
+height: 4px;
+
+/* Solid/Special/Purple/Primary
+
+Purple Primary · #B7AEFD · sampled from Sidebar unread marker.
+*/
+background: #B7AEFD;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* sidebar-bottom */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 48px;
+height: 69px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* sidebar-divider sidebar-section-divider */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 48px;
+height: 1px;
+
+/* Solid/Universal Grey/Container Primary
+
+Solid Container Primary · Artven color palette.
+*/
+background: #262626;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* nav-item */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 48px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* i */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Settings
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 13.88px;
+height: 14px;
+left: calc(50% - 13.88px/2 + 0px);
+top: calc(50% - 14px/2);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+visibility: hidden;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Settings */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 34.68px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Settings */
+
+width: 36px;
+height: 12px;
+
+/* Typography/Label/Sidebar */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 9px;
+line-height: 12px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Solid/Universal Grey/Tertiary */
+color: #828282;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 16px 20px 0px;
+gap: 866px;
+
+position: absolute;
+width: 1216px;
+height: 56px;
+left: 64px;
+top: 0px;
+
+
+
+/* brand */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 1.42109e-14px 0px 0px;
+gap: 4px;
+
+width: 100px;
+height: 30px;
+
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* brand-mark */
+
+width: 30px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo */
+
+position: absolute;
+left: 14.27%;
+right: 14.27%;
+top: 16.67%;
+bottom: 16.67%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 14.27%;
+right: 14.27%;
+top: 16.67%;
+bottom: 16.67%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 23.99%;
+right: 14.27%;
+top: 16.67%;
+bottom: 16.67%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 23.99%;
+right: 14.27%;
+top: 16.67%;
+bottom: 16.67%;
+
+/* Gradient/Special/Logo/Main
+
+Exact fills paint stack from Home/Presets 3:109. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(101.53deg, #B7AEFD 3.82%, #81E6FF 83.11%);
+
+
+/* Vector */
+
+position: absolute;
+left: 14.27%;
+right: 49.1%;
+top: 36.23%;
+bottom: 20.01%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 14.27%;
+right: 49.1%;
+top: 36.23%;
+bottom: 20.01%;
+
+/* Gradient/Special/Logo/Detail
+
+Exact fills paint stack from Home/Presets 3:111. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(102.72deg, #B7AEFD 19.73%, #81E6FF 151.01%);
+
+
+/* brand-wordmark */
+
+width: 66px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* artven */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 83.04%;
+right: 0%;
+top: 17.98%;
+bottom: 1.6%;
+
+background: #FFFFFF;
+
+
+/* Vector_2 */
+
+position: absolute;
+left: 62.71%;
+right: 19.31%;
+top: 17.98%;
+bottom: 0.05%;
+
+background: #FFFFFF;
+
+
+/* Vector_3 */
+
+position: absolute;
+left: 44.5%;
+right: 36.71%;
+top: 19.02%;
+bottom: 1.6%;
+
+background: #FFFFFF;
+
+
+/* Vector_4 */
+
+position: absolute;
+left: 31.87%;
+right: 56.67%;
+top: 0%;
+bottom: 0.5%;
+
+background: #FFFFFF;
+
+
+/* Vector_5 */
+
+position: absolute;
+left: 18.76%;
+right: 70.22%;
+top: 17.88%;
+bottom: 1.6%;
+
+background: #FFFFFF;
+
+
+/* Vector_6 */
+
+position: absolute;
+left: 0%;
+right: 83.33%;
+top: 17.98%;
+bottom: 0%;
+
+background: #FFFFFF;
+
+
+/* Frame 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 275px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* attach */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 40px;
+height: 40px;
+
+/* Solid/Special/Purple/Dark Primary
+
+Purple Dark Primary · #282732 · exact visible background of tokens-chip3:128.
+*/
+background: #282732;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Add
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+
+Repeat, counterclockwise. Rounded 1.4px open stroke in a 20×20 slot. Selected off = Default grey; on = white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 1 */
+
+position: absolute;
+width: 14px;
+height: 14px;
+left: calc(50% - 14px/2);
+top: calc(50% - 14px/2);
+
+
+
+/* Vector */
+
+position: absolute;
+left: 15%;
+right: 15%;
+top: 15%;
+bottom: 15%;
+
+border: 1.41667px solid #999999;
+
+
+/* Vector */
+
+position: absolute;
+width: 3.42px;
+height: 7px;
+left: calc(50% - 3.42px/2 + 0px);
+top: calc(50% - 7px/2 + 0px);
+
+border: 1.41667px solid #999999;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* control-divider */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 1px;
+height: 16px;
+
+/* Solid/Universal Grey/Container Secondary
+
+Solid Container Secondary · Artven color palette.
+*/
+background: #373737;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* tokens-chip */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px;
+gap: 4px;
+
+width: 158px;
+height: 40px;
+
+/* Gradient/Special/Token Chip
+
+Exact fills paint stack from Home/Presets 3:140. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(180deg, rgba(183, 174, 253, 0.14) 0%, rgba(183, 174, 253, 0.14) 100%), #111111;
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* token-pill */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 12px 0px 8px;
+gap: 4px;
+
+width: 60px;
+height: 32px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* token
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 12.75px;
+height: 12.75px;
+left: 3.62px;
+top: 3.62px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+background: #B7AEFD;
+
+
+/* Selected */
+
+position: absolute;
+visibility: hidden;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* 12 480 */
+
+width: 16px;
+height: 17px;
+
+/* Typography/Label/Balance */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* upgrade-button */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+width: 86px;
+height: 32px;
+
+/* Solid/Special/Purple/Primary
+
+Purple Primary · #B7AEFD · sampled from Sidebar unread marker.
+*/
+background: #B7AEFD;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Upgrade */
+
+position: absolute;
+width: 55px;
+height: 16px;
+left: 15.57px;
+top: 8px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Background Dark */
+color: #050505;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* avatar */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 40px;
+height: 40px;
+
+/* Solid/Special/Purple/Dark Primary
+
+Purple Dark Primary · #282732 · exact visible background of tokens-chip3:128.
+*/
+background: #282732;
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Profile
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+
+Profile icon, 20×20. Selected off grey; on white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 12px;
+height: 14px;
+left: 4px;
+top: 3px;
+
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 28px;
+
+position: absolute;
+width: 1216px;
+height: 1736px;
+left: 64px;
+top: 72px;
+
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 1216px;
+height: 284px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* What will you create next? */
+
+width: 1216px;
+height: 40px;
+
+/* Typography/Title/Hero */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 40px;
+/* identical to box height, or 143% */
+text-align: center;
+letter-spacing: -1px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Switch */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px;
+gap: 4px;
+
+width: 184px;
+height: 40px;
+
+/* Solid/Special/Purple/Dark Primary
+
+Purple Dark Primary · #282732 · exact visible background of tokens-chip3:128.
+*/
+background: #282732;
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* upgrade-button */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 86px;
+height: 32px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Upgrade */
+
+width: 31px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Background Dark */
+color: #050505;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* upgrade-button */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 86px;
+height: 32px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Upgrade */
+
+width: 34px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* create */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px 4px 4px;
+
+width: 786px;
+height: 180px;
+
+/* Gradient/Special/Chat Bar
+
+Exact fills paint stack from Home/Presets 42:348. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(110deg, rgba(183, 174, 253, 0.26) 10.99%, rgba(129, 230, 255, 0.19) 46.1%, rgba(183, 174, 253, 0.26) 81.21%);
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* pro-unlock */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 12px 12px 8px;
+
+width: 778px;
+height: 40px;
+
+border-radius: 18.5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 198px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* token
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 12.75px;
+height: 12.75px;
+left: 3.62px;
+top: 3.62px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Special/Purple/Primary
+
+Purple Primary · #B7AEFD · sampled from Sidebar unread marker.
+*/
+background: #B7AEFD;
+
+
+/* Selected */
+
+position: absolute;
+visibility: hidden;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Unlock more features with Pro */
+
+width: 174px;
+height: 15px;
+
+/* Typography/Body/Promo */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+
+opacity: 0.8;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* creative-form */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 12px;
+gap: 8px;
+
+width: 778px;
+height: 136px;
+
+/* Solid/Universal Grey/Background
+
+Solid Background · Artven color palette.
+*/
+background: #171717;
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* composer-body */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px 4px;
+
+width: 750px;
+height: 74px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* prompt */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 750px;
+height: 74px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Describe your creative idea */
+
+width: 236px;
+height: 20px;
+
+/* Typography/Body/Composer */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 154% */
+
+/* Solid/Universal Grey/Secondary */
+color: #A7A5A6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* composer-controls */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 750px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* composer-options */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 712px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* attach */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+/* Solid/Universal Grey/Container Primary
+
+Solid Container Primary · Artven color palette.
+*/
+background: #262626;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Add
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+
+Add icon, 20×20. Selected off = Default grey; on = white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+left: 25.21%;
+right: 25.21%;
+top: 25.21%;
+bottom: 25.21%;
+
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* control-divider */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 1px;
+height: 16px;
+
+/* Solid/Universal Grey/Container Secondary
+
+Solid Container Secondary · Artven color palette.
+*/
+background: #373737;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* mode-select */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 98px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* mode-button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 12px;
+gap: 7px;
+
+width: 98px;
+height: 32px;
+
+/* Solid/Universal Grey/Container Primary
+
+Solid Container Primary · Artven color palette.
+*/
+background: #262626;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Adjustments
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+
+Adjustments icon, 20×20. Selected off = Default grey; on = white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+left: 21.67%;
+right: 21.67%;
+top: 28.75%;
+bottom: 28.75%;
+
+border: 1.59375px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Auto */
+
+width: 28px;
+height: 11px;
+
+/* Typography/Label/Mode */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 11px;
+/* identical to box height, or 92% */
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* i */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 12px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+width: 6px;
+height: 3px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* send-controls */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* send */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+/* Solid/Universal Grey/Container Primary
+
+Solid Container Primary · Artven color palette.
+*/
+background: #262626;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Send
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+
+Send icon, 20×20. Selected off = Default grey; on = white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 9.75px;
+height: 13px;
+left: calc(50% - 9.75px/2);
+top: calc(50% - 13px/2);
+
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Secondary
+
+Solid Secondary · Artven color palette.
+*/
+background: #A7A5A6;
+
+
+/* Selected */
+
+position: absolute;
+visibility: hidden;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Frame 20 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px 20px;
+gap: 12px;
+
+width: 1216px;
+height: 144px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 19 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 1176px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Ideas for You */
+
+width: 1134px;
+height: 26px;
+
+/* Typography/Title/Section */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+letter-spacing: -0.3px;
+
+color: #F2F2F2;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* attach */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+/* Solid/Universal Grey/Container Primary
+
+Solid Container Primary · Artven color palette.
+*/
+background: #262626;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Add
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+
+Repeat, counterclockwise. Rounded 1.4px open stroke in a 20×20 slot. Selected off = Default grey; on = white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+left: 20%;
+right: 20%;
+top: 13.75%;
+bottom: 15%;
+
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Frame 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+isolation: isolate;
+
+width: 1176px;
+height: 100px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 6
+
+Ideas for You card. Title and Subtitle are editable properties; replace the Preview image in the instance. Original 320×100 design.
+*/
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px;
+gap: 16px;
+isolation: isolate;
+
+width: 320px;
+height: 100px;
+
+/* Gradient/Special/Ideas for You/Background
+
+Exact fills paint stack from Home/Presets 42:1616. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(270deg, #2C2C2C 0%, #171717 100%);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Preview */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 90px;
+height: 90px;
+
+background: url(glamai_01a06d07-6a2c-7413-956c-3da6dd4f8742.png);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Frame 7 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+width: 171px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Title */
+
+width: 108px;
+height: 18px;
+
+/* Typography/Title/Idea */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height, or 120% */
+letter-spacing: -0.1px;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Subtitle */
+
+width: 171px;
+height: 16px;
+
+/* Typography/Body/Idea */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+
+/* Solid/Universal Grey/Secondary */
+color: #A7A5A6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* attach */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 281px;
+top: 7px;
+
+/* Solid/Universal Grey/Container Secondary
+
+Solid Container Secondary · Artven color palette.
+*/
+background: #373737;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Add
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+
+Add icon, 20×20. Selected off = Default grey; on = white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+left: 25.21%;
+right: 25.21%;
+top: 25.21%;
+bottom: 25.21%;
+
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Frame 28
+
+Ideas for You card. Title and Subtitle are editable properties; replace the Preview image in the instance. Original 320×100 design.
+*/
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px;
+gap: 16px;
+isolation: isolate;
+
+width: 320px;
+height: 100px;
+
+/* Gradient/Special/Ideas for You/Background
+
+Exact fills paint stack from Home/Presets 42:1616. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(270deg, #2C2C2C 0%, #171717 100%);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Preview */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 90px;
+height: 90px;
+
+background: url(flex_flex-06e50ce9732a44bf.png.jpg);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Frame 7 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+width: 136px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Title */
+
+width: 94px;
+height: 18px;
+
+/* Typography/Title/Idea */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height, or 120% */
+letter-spacing: -0.1px;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Subtitle */
+
+width: 136px;
+height: 16px;
+
+/* Typography/Body/Idea */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+
+/* Solid/Universal Grey/Secondary */
+color: #A7A5A6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* attach */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 281px;
+top: 7px;
+
+/* Solid/Universal Grey/Container Secondary
+
+Solid Container Secondary · Artven color palette.
+*/
+background: #373737;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Add
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+
+Add icon, 20×20. Selected off = Default grey; on = white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+left: 25.21%;
+right: 25.21%;
+top: 25.21%;
+bottom: 25.21%;
+
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Frame 27
+
+Ideas for You card. Title and Subtitle are editable properties; replace the Preview image in the instance. Original 320×100 design.
+*/
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px;
+gap: 16px;
+isolation: isolate;
+
+width: 320px;
+height: 100px;
+
+/* Gradient/Special/Ideas for You/Background
+
+Exact fills paint stack from Home/Presets 42:1616. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(270deg, #2C2C2C 0%, #171717 100%);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Preview */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 90px;
+height: 90px;
+
+background: url(image.png);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Frame 7 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+width: 135px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Title */
+
+width: 108px;
+height: 18px;
+
+/* Typography/Title/Idea */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height, or 120% */
+letter-spacing: -0.1px;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Subtitle */
+
+width: 135px;
+height: 16px;
+
+/* Typography/Body/Idea */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+
+/* Solid/Universal Grey/Secondary */
+color: #A7A5A6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* attach */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 281px;
+top: 7px;
+
+/* Solid/Universal Grey/Container Secondary
+
+Solid Container Secondary · Artven color palette.
+*/
+background: #373737;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Add
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+
+Add icon, 20×20. Selected off = Default grey; on = white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+left: 25.21%;
+right: 25.21%;
+top: 25.21%;
+bottom: 25.21%;
+
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Frame 29
+
+Ideas for You card. Title and Subtitle are editable properties; replace the Preview image in the instance. Original 320×100 design.
+*/
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px;
+gap: 16px;
+isolation: isolate;
+
+width: 320px;
+height: 100px;
+
+/* Gradient/Special/Ideas for You/Background
+
+Exact fills paint stack from Home/Presets 42:1616. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(270deg, #2C2C2C 0%, #171717 100%);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* Preview */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 90px;
+height: 90px;
+
+background: url(image.png);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Frame 7 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+width: 120px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Title */
+
+width: 120px;
+height: 18px;
+
+/* Typography/Title/Idea */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height, or 120% */
+letter-spacing: -0.1px;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Subtitle */
+
+width: 87px;
+height: 16px;
+
+/* Typography/Body/Idea */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+
+/* Solid/Universal Grey/Secondary */
+color: #A7A5A6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* attach */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 281px;
+top: 7px;
+
+/* Solid/Universal Grey/Container Secondary
+
+Solid Container Secondary · Artven color palette.
+*/
+background: #373737;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Add
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+
+Add icon, 20×20. Selected off = Default grey; on = white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+left: 25.21%;
+right: 25.21%;
+top: 25.21%;
+bottom: 25.21%;
+
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Rectangle 4255088 */
+
+position: absolute;
+width: 100px;
+height: 100px;
+right: 0px;
+top: 0px;
+
+/* Gradient/Special/Scroll/Right Fade
+
+Exact fills paint stack from Home/Presets 42:2514. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(270deg, #050505 0%, rgba(5, 5, 5, 0) 100%);
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+
+/* Frame 21 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 1216px;
+height: 1252px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 35 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 20px;
+gap: 12px;
+
+width: 1216px;
+height: 84px;
+
+/* Solid/Universal Grey/Background Dark
+
+Solid Background Dark · Artven color palette.
+*/
+background: #050505;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 19 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 1176px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Ideas for You */
+
+width: 1176px;
+height: 26px;
+
+/* Typography/Title/Section */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+letter-spacing: -0.3px;
+
+color: #F2F2F2;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Frame 36 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 1176px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 22 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+isolation: isolate;
+
+width: 1176px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Category · For you
+
+Wishes category segment. State=default is text-only; State=selected has a white fill. Editable Label; 32px high and hugs text.
+
+Reusable Artven component from the current interface.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 12px;
+
+width: 71.26px;
+height: 32px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Label */
+
+width: 47px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Background Dark */
+color: #050505;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Category · For you
+
+Wishes category segment. State=default is text-only; State=selected has a white fill. Editable Label; 32px high and hugs text.
+
+Reusable Artven component from the current interface.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 12px;
+
+width: 56px;
+height: 32px;
+
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Label */
+
+width: 32px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Secondary */
+color: #A7A5A6;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Category · For you
+
+Wishes category segment. State=default is text-only; State=selected has a white fill. Editable Label; 32px high and hugs text.
+
+Reusable Artven component from the current interface.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 12px;
+
+width: 74px;
+height: 32px;
+
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Label */
+
+width: 50px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Secondary */
+color: #A7A5A6;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Category · For you
+
+Wishes category segment. State=default is text-only; State=selected has a white fill. Editable Label; 32px high and hugs text.
+
+Reusable Artven component from the current interface.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 12px;
+
+width: 56px;
+height: 32px;
+
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* Label */
+
+width: 32px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Secondary */
+color: #A7A5A6;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Category · For you
+
+Wishes category segment. State=default is text-only; State=selected has a white fill. Editable Label; 32px high and hugs text.
+
+Reusable Artven component from the current interface.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 12px;
+
+width: 78px;
+height: 32px;
+
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+
+/* Label */
+
+width: 54px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Secondary */
+color: #A7A5A6;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Category · For you
+
+Wishes category segment. State=default is text-only; State=selected has a white fill. Editable Label; 32px high and hugs text.
+
+Reusable Artven component from the current interface.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 12px;
+
+width: 83px;
+height: 32px;
+
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+z-index: 5;
+
+
+/* Label */
+
+width: 59px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Secondary */
+color: #A7A5A6;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Category · For you
+
+Wishes category segment. State=default is text-only; State=selected has a white fill. Editable Label; 32px high and hugs text.
+
+Reusable Artven component from the current interface.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 12px;
+
+width: 102px;
+height: 32px;
+
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+z-index: 6;
+
+
+/* Label */
+
+width: 78px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Secondary */
+color: #A7A5A6;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Category · For you
+
+Wishes category segment. State=default is text-only; State=selected has a white fill. Editable Label; 32px high and hugs text.
+
+Reusable Artven component from the current interface.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 12px;
+
+width: 69px;
+height: 32px;
+
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+z-index: 7;
+
+
+/* Label */
+
+width: 45px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Secondary */
+color: #A7A5A6;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Category · For you
+
+Wishes category segment. State=default is text-only; State=selected has a white fill. Editable Label; 32px high and hugs text.
+
+Reusable Artven component from the current interface.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 12px;
+
+width: 52px;
+height: 32px;
+
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+z-index: 8;
+
+
+/* Label */
+
+width: 28px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Secondary */
+color: #A7A5A6;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Category · For you
+
+Wishes category segment. State=default is text-only; State=selected has a white fill. Editable Label; 32px high and hugs text.
+
+Reusable Artven component from the current interface.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 12px;
+
+width: 63px;
+height: 32px;
+
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+flex-grow: 0;
+z-index: 9;
+
+
+/* Label */
+
+width: 39px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Secondary */
+color: #A7A5A6;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Category · For you
+
+Wishes category segment. State=default is text-only; State=selected has a white fill. Editable Label; 32px high and hugs text.
+
+Reusable Artven component from the current interface.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 12px;
+
+width: 136px;
+height: 32px;
+
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 10;
+flex-grow: 0;
+z-index: 10;
+
+
+/* Label */
+
+width: 112px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Secondary */
+color: #A7A5A6;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Category · For you
+
+Wishes category segment. State=default is text-only; State=selected has a white fill. Editable Label; 32px high and hugs text.
+
+Reusable Artven component from the current interface.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 12px;
+
+width: 66px;
+height: 32px;
+
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 11;
+flex-grow: 0;
+z-index: 11;
+
+
+/* Label */
+
+width: 42px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Secondary */
+color: #A7A5A6;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Category · For you
+
+Wishes category segment. State=default is text-only; State=selected has a white fill. Editable Label; 32px high and hugs text.
+
+Reusable Artven component from the current interface.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 12px;
+
+width: 70px;
+height: 32px;
+
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 12;
+flex-grow: 0;
+z-index: 12;
+
+
+/* Label */
+
+width: 46px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Secondary */
+color: #A7A5A6;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Category · For you
+
+Wishes category segment. State=default is text-only; State=selected has a white fill. Editable Label; 32px high and hugs text.
+
+Reusable Artven component from the current interface.
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 12px;
+
+width: 95px;
+height: 32px;
+
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 13;
+flex-grow: 0;
+z-index: 13;
+
+
+/* Label */
+
+width: 71px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Secondary */
+color: #A7A5A6;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 4255088 */
+
+position: absolute;
+width: 60px;
+height: 32px;
+right: 32px;
+top: 0px;
+
+/* Gradient/Special/Scroll/Right Fade
+
+Exact fills paint stack from Home/Presets 42:2514. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(270deg, #050505 0%, rgba(5, 5, 5, 0) 100%);
+
+/* Inside auto layout */
+flex: none;
+order: 14;
+flex-grow: 0;
+z-index: 14;
+
+
+/* upgrade-button */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 12px;
+
+position: absolute;
+width: 32px;
+height: 32px;
+right: 6px;
+top: calc(50% - 32px/2);
+
+/* Solid/Universal Grey/Line
+
+Solid Line · Artven color palette.
+*/
+background: #434343;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 15;
+flex-grow: 0;
+z-index: 15;
+
+
+/* i */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+width: 32px;
+height: 32px;
+
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Search
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 6.28px;
+top: 6.28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 13px;
+height: 13px;
+left: calc(50% - 13px/2);
+top: calc(50% - 13px/2);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Selected */
+
+position: absolute;
+visibility: hidden;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Rectangle 4255087 */
+
+width: 1176px;
+height: 8px;
+
+/* Gradient/Special/Wishes/Segments Divider
+
+Exact fills paint stack from Home/Presets 42:2474. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(180deg, #050505 0%, rgba(5, 5, 5, 0) 100%);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 1176px;
+height: 1156px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 30 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 228.8px;
+height: 1148px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Tile Wishes
+
+One style tile, State=default/hovered. Resize height freely; preview fills the tile, Save stays at the top and Caption/Use stay at the bottom. While hovering reveals Use; image and label remain unchanged.
+*/
+
+width: 228.8px;
+height: 406px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Preview */
+
+position: absolute;
+left: 0px;
+right: 0.2px;
+top: 0px;
+bottom: 0px;
+
+background: url(tile.png);
+
+
+/* Save controls */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+height: 44px;
+left: -0.2px;
+right: 0px;
+top: 0px;
+
+
+
+/* Save */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+background: rgba(55, 55, 55, 0.8);
+/* Effects/Tile/Save Blur */
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Saved
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 10.59px;
+height: 13.53px;
+left: calc(50% - 10.59px/2 + 0px);
+top: calc(50% - 13.53px/2 - 0px);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Caption */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 6px;
+gap: 12px;
+
+position: absolute;
+height: 48px;
+left: -0.4px;
+right: 0.2px;
+bottom: 0px;
+
+/* Gradient/Special/Tile/Caption
+
+Exact fills paint stack from Home/Presets 42:2243. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(0deg, #171717 0%, rgba(23, 23, 23, 0.2) 76.12%, rgba(125, 125, 125, 0) 100%);
+
+
+/* Label row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 8px;
+gap: 10px;
+
+width: 217px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Style Name */
+
+width: 72px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Use */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+display: none;
+width: 214px;
+height: 32px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Tile Wishes
+
+One style tile, State=default/hovered. Resize height freely; preview fills the tile, Save stays at the top and Caption/Use stay at the bottom. While hovering reveals Use; image and label remain unchanged.
+*/
+
+width: 228.8px;
+height: 320px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Preview */
+
+position: absolute;
+left: 0px;
+right: 0.2px;
+top: 0px;
+bottom: 0px;
+
+background: url(glamai_01a024f5-6735-7ba2-b34a-b9a6dd265ddb.png);
+
+
+/* Save controls */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+height: 44px;
+left: -0.2px;
+right: 0px;
+top: 0px;
+
+
+
+/* Save */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+background: rgba(55, 55, 55, 0.8);
+/* Effects/Tile/Save Blur */
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Saved
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 10.59px;
+height: 13.53px;
+left: calc(50% - 10.59px/2 + 0px);
+top: calc(50% - 13.53px/2 + 0px);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Caption */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 6px;
+gap: 12px;
+
+position: absolute;
+height: 48px;
+left: -0.4px;
+right: 0.2px;
+bottom: 0px;
+
+/* Gradient/Special/Tile/Caption
+
+Exact fills paint stack from Home/Presets 42:2243. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(0deg, #171717 0%, rgba(23, 23, 23, 0.2) 76.12%, rgba(125, 125, 125, 0) 100%);
+
+
+/* Label row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 8px;
+gap: 10px;
+
+width: 217px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Style Name */
+
+width: 72px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Use */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+display: none;
+width: 214px;
+height: 32px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Tile Wishes
+
+One style tile, State=default/hovered. Resize height freely; preview fills the tile, Save stays at the top and Caption/Use stay at the bottom. While hovering reveals Use; image and label remain unchanged.
+*/
+
+width: 228.8px;
+height: 406px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Preview */
+
+position: absolute;
+left: 0px;
+right: 0.2px;
+top: 0px;
+bottom: 0px;
+
+background: url(Copy of -T2hyZeefhTmd-55TaHqd_gEhHIn1J.png);
+
+
+/* Save controls */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+height: 44px;
+left: -0.2px;
+right: 0px;
+top: 0px;
+
+
+
+/* Save */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+background: rgba(55, 55, 55, 0.8);
+/* Effects/Tile/Save Blur */
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Saved
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 10.59px;
+height: 13.53px;
+left: calc(50% - 10.59px/2 + 0px);
+top: calc(50% - 13.53px/2 + 0px);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Caption */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 6px;
+gap: 12px;
+
+position: absolute;
+height: 48px;
+left: -0.4px;
+right: 0.2px;
+bottom: 0px;
+
+/* Gradient/Special/Tile/Caption
+
+Exact fills paint stack from Home/Presets 42:2243. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(0deg, #171717 0%, rgba(23, 23, 23, 0.2) 76.12%, rgba(125, 125, 125, 0) 100%);
+
+
+/* Label row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 8px;
+gap: 10px;
+
+width: 217px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Style Name */
+
+width: 72px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Use */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+display: none;
+width: 214px;
+height: 32px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 31 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 228.8px;
+height: 1350px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Tile Wishes
+
+One style tile, State=default/hovered. Resize height freely; preview fills the tile, Save stays at the top and Caption/Use stay at the bottom. While hovering reveals Use; image and label remain unchanged.
+*/
+
+width: 228.8px;
+height: 280px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Preview */
+
+position: absolute;
+left: 0px;
+right: 0.2px;
+top: 0px;
+bottom: 0px;
+
+background: url(glamai_1a635fde-610e-4b23-a042-3677ddc6cfd8.jpg);
+
+
+/* Save controls */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+height: 44px;
+left: -0.2px;
+right: 0px;
+top: 0px;
+
+
+
+/* Save */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+background: rgba(55, 55, 55, 0.8);
+/* Effects/Tile/Save Blur */
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Saved
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 10.59px;
+height: 13.53px;
+left: calc(50% - 10.59px/2 + 0px);
+top: calc(50% - 13.53px/2 - 0px);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Caption */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 6px;
+gap: 12px;
+
+position: absolute;
+height: 48px;
+left: -0.4px;
+right: 0.2px;
+bottom: 0px;
+
+/* Gradient/Special/Tile/Caption
+
+Exact fills paint stack from Home/Presets 42:2243. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(0deg, #171717 0%, rgba(23, 23, 23, 0.2) 76.12%, rgba(125, 125, 125, 0) 100%);
+
+
+/* Label row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 8px;
+gap: 10px;
+
+width: 217px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Style Name */
+
+width: 72px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Use */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+display: none;
+width: 214px;
+height: 32px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Tile Wishes
+
+One style tile, State=default/hovered. Resize height freely; preview fills the tile, Save stays at the top and Caption/Use stay at the bottom. While hovering reveals Use; image and label remain unchanged.
+*/
+
+width: 225.6px;
+height: 406px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Preview */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+background: url(image.png);
+
+
+/* Save controls */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+height: 44px;
+left: -0.2px;
+right: -0.2px;
+top: 0px;
+
+
+
+/* Save */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+background: rgba(55, 55, 55, 0.8);
+/* Effects/Tile/Save Blur */
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Saved
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 10.59px;
+height: 13.53px;
+left: calc(50% - 10.59px/2 + 0px);
+top: calc(50% - 13.53px/2 + 0px);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Caption */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 6px;
+gap: 12px;
+
+position: absolute;
+height: 48px;
+left: -0.4px;
+right: 0px;
+bottom: 0px;
+
+/* Gradient/Special/Tile/Caption
+
+Exact fills paint stack from Home/Presets 42:2243. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(0deg, #171717 0%, rgba(23, 23, 23, 0.2) 76.12%, rgba(125, 125, 125, 0) 100%);
+
+
+/* Label row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 8px;
+gap: 10px;
+
+width: 214px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Style Name */
+
+width: 72px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Use */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+display: none;
+width: 214px;
+height: 32px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Tile Wishes
+
+One style tile, State=default/hovered. Resize height freely; preview fills the tile, Save stays at the top and Caption/Use stay at the bottom. While hovering reveals Use; image and label remain unchanged.
+*/
+
+width: 228.8px;
+height: 320px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Preview */
+
+position: absolute;
+left: 0px;
+right: 0.2px;
+top: 0px;
+bottom: 0px;
+
+background: url(glamai_01a0390c-ca20-7d61-ab39-4f64f853e8e4.png);
+
+
+/* Save controls */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+height: 44px;
+left: -0.2px;
+right: 0px;
+top: 0px;
+
+
+
+/* Save */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+background: rgba(55, 55, 55, 0.8);
+/* Effects/Tile/Save Blur */
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Saved
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 10.59px;
+height: 13.53px;
+left: calc(50% - 10.59px/2 + 0px);
+top: calc(50% - 13.53px/2 + 0px);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Caption */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 6px;
+gap: 12px;
+
+position: absolute;
+height: 48px;
+left: -0.4px;
+right: 0.2px;
+bottom: 0px;
+
+/* Gradient/Special/Tile/Caption
+
+Exact fills paint stack from Home/Presets 42:2243. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(0deg, #171717 0%, rgba(23, 23, 23, 0.2) 76.12%, rgba(125, 125, 125, 0) 100%);
+
+
+/* Label row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 8px;
+gap: 10px;
+
+width: 217px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Style Name */
+
+width: 72px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Use */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+display: none;
+width: 214px;
+height: 32px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Tile Wishes
+
+One style tile, State=default/hovered. Resize height freely; preview fills the tile, Save stays at the top and Caption/Use stay at the bottom. While hovering reveals Use; image and label remain unchanged.
+*/
+
+width: 228.8px;
+height: 320px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Preview */
+
+position: absolute;
+left: 0px;
+right: 0.2px;
+top: 0px;
+bottom: 0px;
+
+background: url(glamai_01a0390c-ca20-7d61-ab39-4f64f853e8e4.png);
+
+
+/* Save controls */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+height: 44px;
+left: -0.2px;
+right: 0px;
+top: 0px;
+
+
+
+/* Save */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+background: rgba(55, 55, 55, 0.8);
+/* Effects/Tile/Save Blur */
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Saved
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 10.59px;
+height: 13.53px;
+left: calc(50% - 10.59px/2 + 0px);
+top: calc(50% - 13.53px/2 + 0px);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Caption */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 6px;
+gap: 12px;
+
+position: absolute;
+height: 48px;
+left: -0.4px;
+right: 0.2px;
+bottom: 0px;
+
+/* Gradient/Special/Tile/Caption
+
+Exact fills paint stack from Home/Presets 42:2243. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(0deg, #171717 0%, rgba(23, 23, 23, 0.2) 76.12%, rgba(125, 125, 125, 0) 100%);
+
+
+/* Label row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 8px;
+gap: 10px;
+
+width: 217px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Style Name */
+
+width: 72px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Use */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+display: none;
+width: 214px;
+height: 32px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 32 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 228.8px;
+height: 1148px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Tile Wishes
+
+One style tile, State=default/hovered. Resize height freely; preview fills the tile, Save stays at the top and Caption/Use stay at the bottom. While hovering reveals Use; image and label remain unchanged.
+*/
+
+width: 228px;
+height: 406px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Preview */
+
+position: absolute;
+left: 0px;
+right: 0.4px;
+top: 0px;
+bottom: 0px;
+
+background: url(.png), url(tile.png);
+
+
+/* Save controls */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+height: 44px;
+left: -0.2px;
+right: 0.2px;
+top: 0px;
+
+
+
+/* Save */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+background: rgba(55, 55, 55, 0.8);
+/* Effects/Tile/Save Blur */
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Saved
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 10.59px;
+height: 13.53px;
+left: calc(50% - 10.59px/2 + 0px);
+top: calc(50% - 13.53px/2 - 0px);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Caption */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 6px;
+gap: 12px;
+
+position: absolute;
+height: 48px;
+left: -0.4px;
+right: 0.4px;
+bottom: 0px;
+
+/* Gradient/Special/Tile/Caption
+
+Exact fills paint stack from Home/Presets 42:2243. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(0deg, #171717 0%, rgba(23, 23, 23, 0.2) 76.12%, rgba(125, 125, 125, 0) 100%);
+
+
+/* Label row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 8px;
+gap: 10px;
+
+width: 216px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Style Name */
+
+width: 72px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Use */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+display: none;
+width: 214px;
+height: 32px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Tile Wishes
+
+One style tile, State=default/hovered. Resize height freely; preview fills the tile, Save stays at the top and Caption/Use stay at the bottom. While hovering reveals Use; image and label remain unchanged.
+*/
+
+width: 228.8px;
+height: 320px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Preview */
+
+position: absolute;
+left: 0px;
+right: 0.2px;
+top: 0px;
+bottom: 0px;
+
+background: url(4.png.jpg);
+
+
+/* Save controls */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+height: 44px;
+left: -0.2px;
+right: 0px;
+top: 0px;
+
+
+
+/* Save */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+background: rgba(55, 55, 55, 0.8);
+/* Effects/Tile/Save Blur */
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Saved
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 10.59px;
+height: 13.53px;
+left: calc(50% - 10.59px/2 + 0px);
+top: calc(50% - 13.53px/2 + 0px);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Caption */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 6px;
+gap: 12px;
+
+position: absolute;
+height: 48px;
+left: -0.4px;
+right: 0.2px;
+bottom: 0px;
+
+/* Gradient/Special/Tile/Caption
+
+Exact fills paint stack from Home/Presets 42:2243. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(0deg, #171717 0%, rgba(23, 23, 23, 0.2) 76.12%, rgba(125, 125, 125, 0) 100%);
+
+
+/* Label row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 8px;
+gap: 10px;
+
+width: 217px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Style Name */
+
+width: 72px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Use */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+display: none;
+width: 214px;
+height: 32px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Tile Wishes
+
+One style tile, State=default/hovered. Resize height freely; preview fills the tile, Save stays at the top and Caption/Use stay at the bottom. While hovering reveals Use; image and label remain unchanged.
+*/
+
+width: 228px;
+height: 406px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Preview */
+
+position: absolute;
+left: 0px;
+right: 0.4px;
+top: 0px;
+bottom: 0px;
+
+background: url(glamai_01a042f4-5fa1-7722-aed9-7349cdbad87c.png);
+
+
+/* Save controls */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+height: 44px;
+left: -0.2px;
+right: 0.2px;
+top: 0px;
+
+
+
+/* Save */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+background: rgba(55, 55, 55, 0.8);
+/* Effects/Tile/Save Blur */
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Saved
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 10.59px;
+height: 13.53px;
+left: calc(50% - 10.59px/2 + 0px);
+top: calc(50% - 13.53px/2 + 0px);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Caption */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 6px;
+gap: 12px;
+
+position: absolute;
+height: 48px;
+left: -0.4px;
+right: 0.4px;
+bottom: 0px;
+
+/* Gradient/Special/Tile/Caption
+
+Exact fills paint stack from Home/Presets 42:2243. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(0deg, #171717 0%, rgba(23, 23, 23, 0.2) 76.12%, rgba(125, 125, 125, 0) 100%);
+
+
+/* Label row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 8px;
+gap: 10px;
+
+width: 216px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Style Name */
+
+width: 72px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Use */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+display: none;
+width: 214px;
+height: 32px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 33 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 228.8px;
+height: 1522px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+
+/* Tile Wishes
+
+One style tile, State=default/hovered. Resize height freely; preview fills the tile, Save stays at the top and Caption/Use stay at the bottom. While hovering reveals Use; image and label remain unchanged.
+*/
+
+width: 228.8px;
+height: 280px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Preview */
+
+position: absolute;
+left: 0px;
+right: 0.2px;
+top: 0px;
+bottom: 0px;
+
+background: url(glamai_be79c71b-1ddb-4672-84ef-01abf9adb176.jpg);
+
+
+/* Save controls */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+height: 44px;
+left: -0.2px;
+right: 0px;
+top: 0px;
+
+
+
+/* Save */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+background: rgba(55, 55, 55, 0.8);
+/* Effects/Tile/Save Blur */
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Saved
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 10.59px;
+height: 13.53px;
+left: calc(50% - 10.59px/2 + 0px);
+top: calc(50% - 13.53px/2 - 0px);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Caption */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 6px;
+gap: 12px;
+
+position: absolute;
+height: 48px;
+left: -0.4px;
+right: 0.2px;
+bottom: 0px;
+
+/* Gradient/Special/Tile/Caption
+
+Exact fills paint stack from Home/Presets 42:2243. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(0deg, #171717 0%, rgba(23, 23, 23, 0.2) 76.12%, rgba(125, 125, 125, 0) 100%);
+
+
+/* Label row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 8px;
+gap: 10px;
+
+width: 217px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Style Name */
+
+width: 72px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Use */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+display: none;
+width: 214px;
+height: 32px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Tile Wishes
+
+One style tile, State=default/hovered. Resize height freely; preview fills the tile, Save stays at the top and Caption/Use stay at the bottom. While hovering reveals Use; image and label remain unchanged.
+*/
+
+width: 228.8px;
+height: 406px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Preview */
+
+position: absolute;
+left: 0px;
+right: 0.2px;
+top: 0px;
+bottom: 0px;
+
+background: url(image.png);
+
+
+/* Save controls */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+height: 44px;
+left: -0.2px;
+right: 0px;
+top: 0px;
+
+
+
+/* Save */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+background: rgba(55, 55, 55, 0.8);
+/* Effects/Tile/Save Blur */
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Saved
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 10.59px;
+height: 13.53px;
+left: calc(50% - 10.59px/2 + 0px);
+top: calc(50% - 13.53px/2 + 0px);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Caption */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 6px;
+gap: 12px;
+
+position: absolute;
+height: 48px;
+left: -0.4px;
+right: 0.2px;
+bottom: 0px;
+
+/* Gradient/Special/Tile/Caption
+
+Exact fills paint stack from Home/Presets 42:2243. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(0deg, #171717 0%, rgba(23, 23, 23, 0.2) 76.12%, rgba(125, 125, 125, 0) 100%);
+
+
+/* Label row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 8px;
+gap: 10px;
+
+width: 217px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Style Name */
+
+width: 72px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Use */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+display: none;
+width: 214px;
+height: 32px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Tile Wishes
+
+One style tile, State=default/hovered. Resize height freely; preview fills the tile, Save stays at the top and Caption/Use stay at the bottom. While hovering reveals Use; image and label remain unchanged.
+*/
+
+width: 228.8px;
+height: 406px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Preview */
+
+position: absolute;
+left: 0px;
+right: 0.2px;
+top: 0px;
+bottom: 0px;
+
+background: url(glamai_01a02515-d6b0-7eb1-8049-99f6251ae86d.png);
+
+
+/* Save controls */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+height: 44px;
+left: -0.2px;
+right: 0px;
+top: 0px;
+
+
+
+/* Save */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+background: rgba(55, 55, 55, 0.8);
+/* Effects/Tile/Save Blur */
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Saved
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 10.59px;
+height: 13.53px;
+left: calc(50% - 10.59px/2 + 0px);
+top: calc(50% - 13.53px/2 + 0px);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Caption */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 6px;
+gap: 12px;
+
+position: absolute;
+height: 48px;
+left: -0.4px;
+right: 0.2px;
+bottom: 0px;
+
+/* Gradient/Special/Tile/Caption
+
+Exact fills paint stack from Home/Presets 42:2243. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(0deg, #171717 0%, rgba(23, 23, 23, 0.2) 76.12%, rgba(125, 125, 125, 0) 100%);
+
+
+/* Label row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 8px;
+gap: 10px;
+
+width: 217px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Style Name */
+
+width: 72px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Use */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+display: none;
+width: 214px;
+height: 32px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Tile Wishes
+
+One style tile, State=default/hovered. Resize height freely; preview fills the tile, Save stays at the top and Caption/Use stay at the bottom. While hovering reveals Use; image and label remain unchanged.
+*/
+
+width: 228.8px;
+height: 406px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Preview */
+
+position: absolute;
+left: 0px;
+right: 0.2px;
+top: 0px;
+bottom: 0px;
+
+background: url(image.png);
+
+
+/* Save controls */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+height: 44px;
+left: -0.2px;
+right: 0px;
+top: 0px;
+
+
+
+/* Save */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+background: rgba(55, 55, 55, 0.8);
+/* Effects/Tile/Save Blur */
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Saved
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 10.59px;
+height: 13.53px;
+left: calc(50% - 10.59px/2 + 0px);
+top: calc(50% - 13.53px/2 + 0px);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Caption */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 6px;
+gap: 12px;
+
+position: absolute;
+height: 48px;
+left: -0.4px;
+right: 0.2px;
+bottom: 0px;
+
+/* Gradient/Special/Tile/Caption
+
+Exact fills paint stack from Home/Presets 42:2243. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(0deg, #171717 0%, rgba(23, 23, 23, 0.2) 76.12%, rgba(125, 125, 125, 0) 100%);
+
+
+/* Label row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 8px;
+gap: 10px;
+
+width: 217px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Style Name */
+
+width: 72px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Use */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+display: none;
+width: 214px;
+height: 32px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 34 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 228.8px;
+height: 1148px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 1;
+
+
+/* Tile Wishes
+
+One style tile, State=default/hovered. Resize height freely; preview fills the tile, Save stays at the top and Caption/Use stay at the bottom. While hovering reveals Use; image and label remain unchanged.
+*/
+
+width: 228.8px;
+height: 406px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Preview */
+
+position: absolute;
+left: 0px;
+right: 0.2px;
+top: 0px;
+bottom: 0px;
+
+background: url(Copy of Cz6GRT_ER4EsrRzeYnXlk_XBw1WbLb.png);
+
+
+/* Save controls */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+height: 44px;
+left: -0.2px;
+right: 0px;
+top: 0px;
+
+
+
+/* Save */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+background: rgba(55, 55, 55, 0.8);
+/* Effects/Tile/Save Blur */
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Saved
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 10.59px;
+height: 13.53px;
+left: calc(50% - 10.59px/2 + 0px);
+top: calc(50% - 13.53px/2 - 0px);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Caption */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 6px;
+gap: 12px;
+
+position: absolute;
+height: 48px;
+left: -0.4px;
+right: 0.2px;
+bottom: 0px;
+
+/* Gradient/Special/Tile/Caption
+
+Exact fills paint stack from Home/Presets 42:2243. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(0deg, #171717 0%, rgba(23, 23, 23, 0.2) 76.12%, rgba(125, 125, 125, 0) 100%);
+
+
+/* Label row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 8px;
+gap: 10px;
+
+width: 217px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Style Name */
+
+width: 72px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Use */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+display: none;
+width: 214px;
+height: 32px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Tile Wishes
+
+One style tile, State=default/hovered. Resize height freely; preview fills the tile, Save stays at the top and Caption/Use stay at the bottom. While hovering reveals Use; image and label remain unchanged.
+*/
+
+width: 228.8px;
+height: 320px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Preview */
+
+position: absolute;
+left: 0px;
+right: 0.2px;
+top: 0px;
+bottom: 0px;
+
+background: url(glamai_01a038e5-be30-7e72-b11e-0ef416535d63.png);
+
+
+/* Save controls */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+height: 44px;
+left: -0.2px;
+right: 0px;
+top: 0px;
+
+
+
+/* Save */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+background: rgba(55, 55, 55, 0.8);
+/* Effects/Tile/Save Blur */
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Saved
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 10.59px;
+height: 13.53px;
+left: calc(50% - 10.59px/2 + 0px);
+top: calc(50% - 13.53px/2 + 0px);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Caption */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 6px;
+gap: 12px;
+
+position: absolute;
+height: 48px;
+left: -0.4px;
+right: 0.2px;
+bottom: 0px;
+
+/* Gradient/Special/Tile/Caption
+
+Exact fills paint stack from Home/Presets 42:2243. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(0deg, #171717 0%, rgba(23, 23, 23, 0.2) 76.12%, rgba(125, 125, 125, 0) 100%);
+
+
+/* Label row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 8px;
+gap: 10px;
+
+width: 217px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Style Name */
+
+width: 72px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Use */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+display: none;
+width: 214px;
+height: 32px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Tile Wishes
+
+One style tile, State=default/hovered. Resize height freely; preview fills the tile, Save stays at the top and Caption/Use stay at the bottom. While hovering reveals Use; image and label remain unchanged.
+*/
+
+width: 228.8px;
+height: 406px;
+
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Preview */
+
+position: absolute;
+left: 0px;
+right: 0.2px;
+top: 0px;
+bottom: 0px;
+
+background: url(3f8cc402-88b0-498a-8590-c6dcc0597087.jpg.png);
+
+
+/* Save controls */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+height: 44px;
+left: -0.2px;
+right: 0px;
+top: 0px;
+
+
+
+/* Save */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 32px;
+height: 32px;
+
+background: rgba(55, 55, 55, 0.8);
+/* Effects/Tile/Save Blur */
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Saved
+
+20×20 icon family. Icon selects the glyph. Selected is a Boolean property on instances: off = Default grey, on = Selected white.
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 10.59px;
+height: 13.53px;
+left: calc(50% - 10.59px/2 + 0px);
+top: calc(50% - 13.53px/2 + 0px);
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+border: 1.4px solid #FFFFFF;
+
+
+/* Default */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Tertiary
+
+Solid Tertiary · Artven color palette.
+*/
+background: #828282;
+
+
+/* Selected */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+
+
+/* Caption */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 6px;
+gap: 12px;
+
+position: absolute;
+height: 48px;
+left: -0.4px;
+right: 0.2px;
+bottom: 0px;
+
+/* Gradient/Special/Tile/Caption
+
+Exact fills paint stack from Home/Presets 42:2243. Preserve original stops, alpha and transform.
+*/
+background: linear-gradient(0deg, #171717 0%, rgba(23, 23, 23, 0.2) 76.12%, rgba(125, 125, 125, 0) 100%);
+
+
+/* Label row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 8px;
+gap: 10px;
+
+width: 217px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Style Name */
+
+width: 72px;
+height: 16px;
+
+/* Typography/Label/Control */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid/Universal Grey/Primary */
+color: #FFFFFF;
+font-variation-settings: 'slnt' 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Use */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+display: none;
+width: 214px;
+height: 32px;
+
+/* Solid/Universal Grey/Primary
+
+Solid Primary · Artven color palette.
+*/
+background: #FFFFFF;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
