@@ -6,7 +6,7 @@ import { BookmarkIcon, SearchIcon } from '../icons/Icon.tsx'
 type WishesGalleryProps = {
   categories: Category[]
   wishes: Wish[][]
-  attachedId: string | null
+  attachedIds: string[]
   onUse: (attachment: ImageAttachment) => void
 }
 
@@ -19,7 +19,7 @@ function attachmentFrom(wish: Wish): ImageAttachment {
   }
 }
 
-export function WishesGallery({ categories, wishes, attachedId, onUse }: WishesGalleryProps) {
+export function WishesGallery({ categories, wishes, attachedIds, onUse }: WishesGalleryProps) {
   const [category, setCategory] = useState<CategoryId>('for-you')
   const [savedIds, setSavedIds] = useState<string[]>([])
   const columns = wishesForCategory(wishes, category)
@@ -55,7 +55,7 @@ export function WishesGallery({ categories, wishes, attachedId, onUse }: WishesG
         {columns.map((column, index) => (
           <div className="gallery-column" key={`${category}-${index}`}>
             {column.map((wish) => {
-              const selected = attachedId === wish.id
+              const selected = attachedIds.includes(wish.id)
               const saved = savedIds.includes(wish.id)
               return (
                 <article

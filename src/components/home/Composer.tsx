@@ -6,10 +6,10 @@ type ComposerProps = {
   draft: PromptDraft
   onTextChange: (text: string) => void
   onAttach: (attachment: ImageAttachment) => void
-  onClearAttachment: () => void
+  onRemoveAttachment: (id: string) => void
 }
 
-export function Composer({ draft, onTextChange, onAttach, onClearAttachment }: ComposerProps) {
+export function Composer({ draft, onTextChange, onAttach, onRemoveAttachment }: ComposerProps) {
   const inputId = useId()
   const fileRef = useRef<HTMLInputElement>(null)
   const ready = hasPromptContent(draft)
@@ -41,14 +41,22 @@ export function Composer({ draft, onTextChange, onAttach, onClearAttachment }: C
         }}
       >
         <div className="composer-body">
-          {draft.attachment ? (
-            <div className="attachment">
-              <img src={draft.attachment.url} alt={draft.attachment.name} />
-              <span>{draft.attachment.name}</span>
-              <button type="button" aria-label="Remove attached image" onClick={onClearAttachment}>
-                <CloseIcon />
-              </button>
-            </div>
+          {draft.attachments.length > 0 ? (
+            <ul className="attachments">
+              {draft.attachments.map((attachment) => (
+                <li className="attachment" key={attachment.id}>
+                  <img src={attachment.url} alt={attachment.name} />
+                  <span>{attachment.name}</span>
+                  <button
+                    type="button"
+                    aria-label={`Remove ${attachment.name}`}
+                    onClick={() => onRemoveAttachment(attachment.id)}
+                  >
+                    <CloseIcon />
+                  </button>
+                </li>
+              ))}
+            </ul>
           ) : null}
           <label className="sr-only" htmlFor={inputId}>
             Describe your creative idea
@@ -84,7 +92,7 @@ export function Composer({ draft, onTextChange, onAttach, onClearAttachment }: C
               <ChevronIcon className="chevron" />
             </button>
           </div>
-          <button className={ready ? 'send-button is-ready' : 'send-button'} type="submit" aria-label="Send prompt">
+          <button className={ready ? 'send-button is-ready' : 'send-button'} type="button" aria-label="Send prompt">
             <SendIcon />
           </button>
         </div>

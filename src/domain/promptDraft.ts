@@ -9,7 +9,7 @@ export type ImageAttachment = {
 
 export type PromptDraft = {
   text: string
-  attachment: ImageAttachment | null
+  attachments: ImageAttachment[]
 }
 
 export type IdeaSelection = {
@@ -17,27 +17,29 @@ export type IdeaSelection = {
 }
 
 export function createEmptyDraft(): PromptDraft {
-  return { text: '', attachment: null }
+  return { text: '', attachments: [] }
 }
 
 export function withText(draft: PromptDraft, text: string): PromptDraft {
   return { ...draft, text }
 }
 
-export function withAttachment(draft: PromptDraft, attachment: ImageAttachment): PromptDraft {
-  return { ...draft, attachment }
+export function addAttachment(draft: PromptDraft, attachment: ImageAttachment): PromptDraft {
+  if (draft.attachments.some((item) => item.id === attachment.id)) return draft
+  return { ...draft, attachments: [...draft.attachments, attachment] }
 }
 
-export function withoutAttachment(draft: PromptDraft): PromptDraft {
-  return { ...draft, attachment: null }
+export function withoutAttachment(draft: PromptDraft, id: string): PromptDraft {
+  return { ...draft, attachments: draft.attachments.filter((item) => item.id !== id) }
 }
 
 export function applyIdea(draft: PromptDraft, idea: IdeaSelection): PromptDraft {
-  const next = withText(draft, idea.prompt)
-  if (next.attachment?.source === 'idea') return withoutAttachment(next)
-  return next
+  return {
+    ...withText(draft, idea.prompt),
+    attachments: draft.attachments.filter((item) => item.source !== 'idea'),
+  }
 }
 
 export function hasPromptContent(draft: PromptDraft): boolean {
-  return draft.text.trim().length > 0 || draft.attachment !== null
+  return draft.text.trim().length > 0 || draft.attachments.length > 0
 }

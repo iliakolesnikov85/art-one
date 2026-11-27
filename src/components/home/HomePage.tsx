@@ -14,7 +14,7 @@ export function HomePage() {
         draft={prompt.draft}
         onTextChange={prompt.setText}
         onAttach={prompt.attach}
-        onClearAttachment={prompt.clearAttachment}
+        onRemoveAttachment={prompt.removeAttachment}
       />
       {catalog.status === 'loading' ? (
         <p className="home-status" role="status">
@@ -32,7 +32,7 @@ export function HomePage() {
           <WishesGallery
             categories={catalog.categories}
             wishes={catalog.wishes}
-            attachedId={prompt.draft.attachment?.id ?? null}
+            attachedIds={prompt.draft.attachments.map((item) => item.id)}
             onUse={prompt.attach}
           />
         </>

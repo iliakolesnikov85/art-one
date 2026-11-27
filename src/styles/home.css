@@ -361,6 +361,15 @@
   color: #a7a5a6;
 }
 
+.attachments {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .attachment {
   display: flex;
   align-items: center;
@@ -447,7 +456,22 @@
   font-weight: 500;
 }
 
+.send-button {
+  transition: background-color 120ms ease, color 120ms ease;
+}
+
 .send-button.is-ready {
+  color: #ffffff;
+}
+
+.send-button:hover,
+.send-button:focus-visible {
+  background: #373737;
+  color: #ffffff;
+}
+
+.send-button:active {
+  background: #454545;
   color: #ffffff;
 }
 
@@ -589,15 +613,15 @@
 }
 
 .gallery {
-  display: flex;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  align-items: start;
   gap: 8px;
   margin-top: 12px;
 }
 
 .gallery-column {
   display: flex;
-  flex: 1;
   flex-direction: column;
   gap: 8px;
   min-width: 0;

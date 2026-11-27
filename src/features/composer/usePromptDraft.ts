@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import {
+  addAttachment,
   applyIdea,
   createEmptyDraft,
-  withAttachment,
   withText,
   withoutAttachment,
   type IdeaSelection,
@@ -10,8 +10,11 @@ import {
   type PromptDraft,
 } from '../../domain/promptDraft.ts'
 
-function releaseUpload(attachment: ImageAttachment | null) {
-  if (attachment?.source === 'upload') URL.revokeObjectURL(attachment.url)
+function releaseRemovedUploads(previous: ImageAttachment[], next: ImageAttachment[]) {
+  const kept = new Set(next.map((item) => item.url))
+  for (const attachment of previous) {
+    if (attachment.source === 'upload' && !kept.has(attachment.url)) URL.revokeObjectURL(attachment.url)
+  }
 }
 
 export function usePromptDraft() {
@@ -23,9 +26,7 @@ export function usePromptDraft() {
   }, [draft])
 
   const commit = (next: PromptDraft, previous: PromptDraft) => {
-    if (previous.attachment && previous.attachment.url !== next.attachment?.url) {
-      releaseUpload(previous.attachment)
-    }
+    releaseRemovedUploads(previous.attachments, next.attachments)
     draftRef.current = next
     setDraft(next)
   }
@@ -38,11 +39,11 @@ export function usePromptDraft() {
     },
     attach(attachment: ImageAttachment) {
       const current = draftRef.current
-      commit(withAttachment(current, attachment), current)
+      commit(addAttachment(current, attachment), current)
     },
-    clearAttachment() {
+    removeAttachment(id: string) {
       const current = draftRef.current
-      commit(withoutAttachment(current), current)
+      commit(withoutAttachment(current, id), current)
     },
     applyIdea(idea: IdeaSelection) {
       const current = draftRef.current

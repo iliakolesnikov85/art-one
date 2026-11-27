@@ -92,6 +92,7 @@ function cloneCatalog(): HomeCatalog {
 }
 
 export const mockCatalogService: CatalogService = {
+  readHomeCatalog: cloneCatalog,
   getHomeCatalog() {
     return Promise.resolve(cloneCatalog())
   },

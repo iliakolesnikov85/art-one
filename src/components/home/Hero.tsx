@@ -8,10 +8,10 @@ type HeroProps = {
   draft: PromptDraft
   onTextChange: (text: string) => void
   onAttach: (attachment: ImageAttachment) => void
-  onClearAttachment: () => void
+  onRemoveAttachment: (id: string) => void
 }
 
-export function Hero({ draft, onTextChange, onAttach, onClearAttachment }: HeroProps) {
+export function Hero({ draft, onTextChange, onAttach, onRemoveAttachment }: HeroProps) {
   const [mode, setMode] = useState<CreationMode>('chat')
 
   return (
@@ -39,7 +39,7 @@ export function Hero({ draft, onTextChange, onAttach, onClearAttachment }: HeroP
         draft={draft}
         onTextChange={onTextChange}
         onAttach={onAttach}
-        onClearAttachment={onClearAttachment}
+        onRemoveAttachment={onRemoveAttachment}
       />
     </section>
   )
