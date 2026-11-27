@@ -13,10 +13,7 @@ export type PromptDraft = {
 }
 
 export type IdeaSelection = {
-  id: string
   prompt: string
-  imageUrl: string
-  imageName: string
 }
 
 export function createEmptyDraft(): PromptDraft {
@@ -36,12 +33,9 @@ export function withoutAttachment(draft: PromptDraft): PromptDraft {
 }
 
 export function applyIdea(draft: PromptDraft, idea: IdeaSelection): PromptDraft {
-  return withAttachment(withText(draft, idea.prompt), {
-    id: idea.id,
-    name: idea.imageName,
-    url: idea.imageUrl,
-    source: 'idea',
-  })
+  const next = withText(draft, idea.prompt)
+  if (next.attachment?.source === 'idea') return withoutAttachment(next)
+  return next
 }
 
 export function hasPromptContent(draft: PromptDraft): boolean {

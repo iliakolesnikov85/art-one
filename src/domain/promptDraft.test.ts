@@ -34,20 +34,33 @@ describe('promptDraft', () => {
     expect(withoutAttachment(attached)).toEqual(withPrompt)
   })
 
-  it('applies an idea as a prompt plus its reference image', () => {
-    const draft = applyIdea(withText(createEmptyDraft(), 'old'), {
-      id: 'studio-shoot',
-      prompt: 'Create a full campaign studio photoshoot.',
-      imageUrl: '/media/image-01.jpg',
-      imageName: 'Studio Shoot',
-    })
-
-    expect(draft.text).toBe('Create a full campaign studio photoshoot.')
-    expect(draft.attachment).toEqual({
-      id: 'studio-shoot',
-      name: 'Studio Shoot',
-      url: '/media/image-01.jpg',
+  it('applies an idea as prompt text and drops an idea badge', () => {
+    const withBadge = withAttachment(withText(createEmptyDraft(), 'old'), {
+      id: 'smart-retouch',
+      name: 'Smart Retouch',
+      url: '/media/image-02.jpg',
       source: 'idea',
     })
+    const draft = applyIdea(withBadge, {
+      prompt: 'Retouch the product and fix visible imperfections.',
+    })
+
+    expect(draft.text).toBe('Retouch the product and fix visible imperfections.')
+    expect(draft.attachment).toBeNull()
+  })
+
+  it('keeps a gallery image when an idea fills the prompt', () => {
+    const attached = withAttachment(createEmptyDraft(), {
+      id: 'tile-1',
+      name: 'Style Name',
+      url: '/media/image-04.jpg',
+      source: 'gallery',
+    })
+    const draft = applyIdea(attached, {
+      prompt: 'Retouch the product and fix visible imperfections.',
+    })
+
+    expect(draft.text).toBe('Retouch the product and fix visible imperfections.')
+    expect(draft.attachment).toEqual(attached.attachment)
   })
 })

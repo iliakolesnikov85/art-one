@@ -1,23 +1,19 @@
 import { useState } from 'react'
-import { ideas as ideaCatalog, type Idea } from '../../data/catalog.ts'
+import type { Idea } from '../../domain/catalog.ts'
 import type { IdeaSelection } from '../../domain/promptDraft.ts'
 import { PlusIcon, RefreshIcon } from '../icons/Icon.tsx'
 
 type IdeasSectionProps = {
+  ideas: Idea[]
   onApply: (idea: IdeaSelection) => void
 }
 
 function selectionFrom(idea: Idea): IdeaSelection {
-  return {
-    id: idea.id,
-    prompt: idea.prompt,
-    imageUrl: idea.imageUrl,
-    imageName: idea.title,
-  }
+  return { prompt: idea.prompt }
 }
 
-export function IdeasSection({ onApply }: IdeasSectionProps) {
-  const [items, setItems] = useState(ideaCatalog)
+export function IdeasSection({ ideas, onApply }: IdeasSectionProps) {
+  const [items, setItems] = useState(ideas)
 
   const refresh = () => {
     setItems((current) => {

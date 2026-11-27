@@ -1,26 +1,28 @@
 import { useState } from 'react'
-import { categories, tilesForCategory, type CategoryId, type GalleryTile } from '../../data/catalog.ts'
+import { wishesForCategory, type Category, type CategoryId, type Wish } from '../../domain/catalog.ts'
 import type { ImageAttachment } from '../../domain/promptDraft.ts'
 import { BookmarkIcon, SearchIcon } from '../icons/Icon.tsx'
 
 type WishesGalleryProps = {
+  categories: Category[]
+  wishes: Wish[][]
   attachedId: string | null
   onUse: (attachment: ImageAttachment) => void
 }
 
-function attachmentFrom(tile: GalleryTile): ImageAttachment {
+function attachmentFrom(wish: Wish): ImageAttachment {
   return {
-    id: tile.id,
-    name: tile.label,
-    url: tile.imageUrl,
+    id: wish.id,
+    name: wish.name,
+    url: wish.imageUrl,
     source: 'gallery',
   }
 }
 
-export function WishesGallery({ attachedId, onUse }: WishesGalleryProps) {
+export function WishesGallery({ categories, wishes, attachedId, onUse }: WishesGalleryProps) {
   const [category, setCategory] = useState<CategoryId>('for-you')
   const [savedIds, setSavedIds] = useState<string[]>([])
-  const columns = tilesForCategory(category)
+  const columns = wishesForCategory(wishes, category)
 
   const toggleSaved = (id: string) => {
     setSavedIds((current) => (current.includes(id) ? current.filter((item) => item !== id) : [...current, id]))
@@ -52,34 +54,34 @@ export function WishesGallery({ attachedId, onUse }: WishesGalleryProps) {
       <div className="gallery">
         {columns.map((column, index) => (
           <div className="gallery-column" key={`${category}-${index}`}>
-            {column.map((tile) => {
-              const selected = attachedId === tile.id
-              const saved = savedIds.includes(tile.id)
+            {column.map((wish) => {
+              const selected = attachedId === wish.id
+              const saved = savedIds.includes(wish.id)
               return (
                 <article
-                  key={tile.id}
-                  className={selected ? `tile tile-h-${tile.height} is-selected` : `tile tile-h-${tile.height}`}
+                  key={wish.id}
+                  className={selected ? `tile tile-h-${wish.height} is-selected` : `tile tile-h-${wish.height}`}
                 >
                   <button
                     className="tile-preview"
                     type="button"
-                    aria-label={`Attach ${tile.label}`}
-                    onClick={() => onUse(attachmentFrom(tile))}
+                    aria-label={`Attach ${wish.name}`}
+                    onClick={() => onUse(attachmentFrom(wish))}
                   >
-                    <img src={tile.imageUrl} alt="" />
+                    <img src={wish.imageUrl} alt="" />
                   </button>
                   <button
                     className={saved ? 'save-button is-saved' : 'save-button'}
                     type="button"
-                    aria-label={saved ? `Unsave ${tile.label}` : `Save ${tile.label}`}
+                    aria-label={saved ? `Unsave ${wish.name}` : `Save ${wish.name}`}
                     aria-pressed={saved}
-                    onClick={() => toggleSaved(tile.id)}
+                    onClick={() => toggleSaved(wish.id)}
                   >
                     <BookmarkIcon />
                   </button>
                   <div className="tile-caption">
-                    <span>{tile.label}</span>
-                    <button type="button" onClick={() => onUse(attachmentFrom(tile))}>
+                    <span>{wish.name}</span>
+                    <button type="button" onClick={() => onUse(attachmentFrom(wish))}>
                       Use
                     </button>
                   </div>
